@@ -32,8 +32,7 @@ public class WorkerThread implements Runnable {
             RpcRequest rpcRequest = (RpcRequest) objectInputStream.readObject();
             Method method = service.getClass().getMethod(rpcRequest.getMethodName(), rpcRequest.getParamTypes());
             Object returnObject = method.invoke(service, rpcRequest.getParameters());
-            // objectOutputStream.writeObject(RpcResponse.success(returnObject));
-            objectOutputStream.writeObject(RpcResponse.success(1000, "temp success"));
+            objectOutputStream.writeObject(RpcResponse.success(returnObject));
             objectOutputStream.flush();
         } catch (IOException | ClassNotFoundException | NoSuchMethodException | IllegalAccessException | InvocationTargetException e) {
             logger.error("调用或发送时有错误发生：", e);

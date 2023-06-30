@@ -1,4 +1,4 @@
-package top.miaofang;
+package top.miaofang.common.enumeration;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

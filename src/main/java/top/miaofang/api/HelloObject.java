@@ -1,4 +1,4 @@
-package top.miaofang;
+package top.miaofang.api;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

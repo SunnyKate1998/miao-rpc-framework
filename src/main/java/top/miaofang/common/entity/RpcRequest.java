@@ -1,4 +1,4 @@
-package top.miaofang;
+package top.miaofang.common.entity;
 
 import lombok.Builder;
 import lombok.Data;

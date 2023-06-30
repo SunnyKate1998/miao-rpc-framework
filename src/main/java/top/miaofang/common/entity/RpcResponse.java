@@ -1,7 +1,7 @@
-package top.miaofang;
+package top.miaofang.common.entity;
 
 import lombok.Data;
-import lombok.NoArgsConstructor;
+import top.miaofang.common.enumeration.ResponseCode;
 
 import java.io.Serializable;
 

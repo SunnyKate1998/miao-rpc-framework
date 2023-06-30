@@ -1,5 +1,9 @@
-package top.miaofang;
+package top.miaofang.test.client;
 
+
+import top.miaofang.api.HelloObject;
+import top.miaofang.api.HelloService;
+import top.miaofang.core.client.RpcClientProxy;
 
 /**
  * 测试用消费者（客户端）

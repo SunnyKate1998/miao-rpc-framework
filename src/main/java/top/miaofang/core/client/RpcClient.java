@@ -1,7 +1,8 @@
-package top.miaofang;
+package top.miaofang.core.client;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import top.miaofang.common.entity.RpcRequest;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

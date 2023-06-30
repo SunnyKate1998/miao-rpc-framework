@@ -1,4 +1,7 @@
-package top.miaofang;
+package top.miaofang.core.client;
+
+import top.miaofang.common.entity.RpcRequest;
+import top.miaofang.common.entity.RpcResponse;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

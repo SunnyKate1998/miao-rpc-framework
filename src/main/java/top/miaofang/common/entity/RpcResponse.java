@@ -1,6 +1,8 @@
 package top.miaofang.common.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import top.miaofang.common.enumeration.ResponseCode;
 
 import java.io.Serializable;
@@ -10,7 +12,7 @@ import java.io.Serializable;
  * @author miao
  */
 @Data
-//@NoArgsConstructor
+@NoArgsConstructor
 public class RpcResponse<T> implements Serializable {
     /**
      * 响应状态码

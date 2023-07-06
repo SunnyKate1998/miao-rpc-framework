@@ -11,7 +11,7 @@ import java.io.IOException;
 
 /**
  * 使用JSON格式的序列化器
- * @author ziyang
+ * @author miao
  */
 public class JsonSerializer implements CommonSerializer {
 

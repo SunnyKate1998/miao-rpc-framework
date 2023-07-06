@@ -2,7 +2,7 @@ package top.miaofang.core.serializer;
 
 /**
  * 通用的序列化反序列化接口
- * @author ziyang
+ * @author miao
  */
 public interface CommonSerializer {
 

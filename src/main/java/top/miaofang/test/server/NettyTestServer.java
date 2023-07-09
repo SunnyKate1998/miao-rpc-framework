@@ -3,6 +3,7 @@ package top.miaofang.test.server;
 import top.miaofang.api.HelloService;
 import top.miaofang.core.netty.server.NettyServer;
 import top.miaofang.core.serializer.KryoSerializer;
+import top.miaofang.core.serializer.ProtobufSerializer;
 import top.miaofang.core.registry.ServiceRegistry;
 
 /**

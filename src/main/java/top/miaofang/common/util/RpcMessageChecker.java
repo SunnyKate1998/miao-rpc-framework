@@ -22,6 +22,7 @@ public class RpcMessageChecker {
     }
 
     public static void check(RpcRequest rpcRequest, RpcResponse rpcResponse) {
+        //logger.info(rpcResponse.toString());
         if (rpcResponse == null) {
             logger.error("调用服务失败,serviceName:{}", rpcRequest.getInterfaceName());
             throw new RpcException(RpcError.SERVICE_INVOCATION_FAILURE, INTERFACE_NAME + ":" + rpcRequest.getInterfaceName());

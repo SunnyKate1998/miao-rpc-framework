@@ -2,7 +2,7 @@ package top.miaofang.test.server;
 
 import top.miaofang.api.HelloService;
 import top.miaofang.core.registry.ServiceRegistry;
-import top.miaofang.socket.server.SocketServer;
+//import top.miaofang.socket.server.SocketServer;
 
 /**
  * 测试用服务提供方（服务端）

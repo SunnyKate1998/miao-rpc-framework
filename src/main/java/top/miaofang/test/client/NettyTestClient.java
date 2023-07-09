@@ -1,5 +1,6 @@
 package top.miaofang.test.client;
 
+import top.miaofang.api.ByeService;
 import top.miaofang.api.HelloObject;
 import top.miaofang.api.HelloService;
 import top.miaofang.core.client.RpcClient;
@@ -24,6 +25,8 @@ public class NettyTestClient {
         HelloObject object = new HelloObject(12, "This is a message");
         String res = helloService.hello(object);
         System.out.println(res);
+        ByeService byeService = rpcClientProxy.getProxy(ByeService.class);
+        System.out.println(byeService.bye("Netty"));
 
     }
 

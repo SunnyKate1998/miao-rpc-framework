@@ -11,6 +11,8 @@ import lombok.AllArgsConstructor;
 @Getter
 public enum RpcError {
 
+    UNKNOWN_ERROR("出现未知错误"),
+    SERVICE_SCAN_PACKAGE_NOT_FOUND("启动类ServiceScan注解缺失"),
     CLIENT_CONNECT_SERVER_FAILURE("客户端连接服务端失败"),
     SERVICE_INVOCATION_FAILURE("服务调用出现失败"),
     SERVICE_CAN_NOT_BE_NULL("注册的服务不得为空"),

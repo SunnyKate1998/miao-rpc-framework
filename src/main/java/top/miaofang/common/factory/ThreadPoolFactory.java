@@ -1,4 +1,4 @@
-package top.miaofang.common.util;
+package top.miaofang.common.factory;
 
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
 

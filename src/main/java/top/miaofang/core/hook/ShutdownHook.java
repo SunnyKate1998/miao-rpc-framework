@@ -2,7 +2,7 @@ package top.miaofang.core.hook;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import top.miaofang.common.util.ThreadPoolFactory;
+import top.miaofang.common.factory.ThreadPoolFactory;
 import top.miaofang.common.util.NacosUtil;
 
 /**
